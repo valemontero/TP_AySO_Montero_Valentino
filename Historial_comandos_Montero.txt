@@ -1,0 +1,495 @@
+whoami
+ls
+ls -l
+cd repogit
+ls
+ssh-keygen -t ed25519
+cd
+cd home
+ls -l
+ls -l .ssh
+cat
+ls -l .ssh
+cat id_ed25519.pub
+cd
+vagrant halt
+ls .ssh
+cat ~/.ssh/id_ed25519.pub
+logout
+man
+man man
+echo $HOME
+echo hola
+pwd
+ls
+cat -help
+cat --help
+ls
+cd repogit
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd
+git clone git@github.com:valemontero/TP1_AySO_Montero_Valentino.git
+ssh-keygen -t ed25519
+ls -l .ssh/
+sudo systemctl status sshd
+w
+cat .ssh/id_ed25519.pub
+vagrant status
+git clone 
+git clone git@github.com:valemontero/TP1_AySO_Montero_Valentino.git
+ls
+vagrant status
+ls
+cd TP1_AySO_Montero_Valentino/
+ls
+cd
+man man
+man cat
+pwd
+whoami
+ls -l
+ls -la
+pwd
+ls
+cd .ssh/
+ls
+cat *.*
+cat *
+cd ..
+cat .shh/id_ed25519.pub
+pwd
+cat .ssh/id_ed25519.pub
+cd
+mkdir clase4
+cd clase4
+cd
+ls
+cd clase4
+cat > archivo1.txt
+ls
+cat archivo1.txt
+cat << FIN archivo2.txt
+Hola
+
+cat << FIN > archivo2.txt
+linea4
+linea5
+linea6
+FIN
+
+ls
+cat archivo1.txt
+cat archivo1.txt > archivo3.txt
+ls
+cat archivo3.txt
+cat archivo2.txt >> archivo3.txt
+cat archivo3.txt
+cat archivo1.txt archivo2.txt > archivo4.txt
+cat archivo4.txt
+man grep
+grep 6 archivo4.txt
+grep -n 6 archivo4.txt
+ls
+cd
+ls
+cd carpeta_compartida/
+ls
+cd
+mkdir Documents
+cd Documents
+cat archivo1.txt
+cat > archivo1.txt
+ls
+cat archivo1.txt
+cat > archivo2.txt
+cat archivo1.txt archivo2.txt > archivo3.txt
+cat archivo3.txt
+cd
+cd clase4
+ls
+mkdir ejercicio_grep
+cd ejercicio_grep/
+grep help
+grep
+grep --help
+cat > archivo1.txt
+ls
+cat > archivo2.txt
+grep 'dias' archivo1.txt
+grep -n 'dias' archivo1.txt
+grep -c 'dias' archivo1.txt
+grep 'martes' archivo1.txt | archivo2.txt
+grep martes archivo1.txt | grep martes archivo2.txt
+ls
+grep 'martes' archivo1.txt
+grep 'martes' archivo1.txt | grep -í martes archivo2.txt
+grep 'martes' archivo1.txt | grep -i martes archivo2.txt
+grep martes archivo1.txt
+grep -i martes *
+grep martes archivo1.txt | grep -i martes archivo2.txt
+cd
+ls -l
+tree
+sudo apt install tree
+tree
+cat /proc/cpuinfo | less
+w
+ls
+tree
+mkdir clase 5
+ls
+mrdir clase 5
+rmdir clase 5
+ls
+cls
+cd clase4
+ls
+ls -l
+cp archivo1.txt copia1.txt
+ls -l
+cat copia1.txt
+touch vacio.txt
+ls -l
+mkdir copia
+ls
+ls -l
+tree
+mv copia1.txt copia
+tree
+rm -r copia/
+tree
+cd
+cd clase4
+mkdir practica
+ls
+cd practica
+cat > archivo1.txt
+ls
+rm archivo1.txt
+cl
+ls
+tree
+cat > pratica1.txt
+cat > practica2.txt
+tree
+mv help
+mv --help
+d
+cd
+mkdir dir1 dir2 dir3
+ls
+tree
+rmdir dir1 dir2 dir3
+ls
+cd clase 4
+cd clase4
+ls
+tree
+mkdir -p {dir1,dir2}/subdir{1..3}
+ls -l
+tree
+rm -r dir1
+rm -r dir 2
+mkdir dir2
+mkdir dir 1
+rm dir 1
+rm dir1
+ls
+ls -l
+rm dir
+rm clase4/dir
+cd
+rm -r clase4/dir
+cd clase4
+ls -l
+rm -r 1
+tree
+mkdir dir1
+ls -l
+rm -r dir1 dir 2
+rm -r dir1 dir2
+tree
+cat /etc/passwrd
+cat /etc/passwd
+grep vagrant /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo su
+su - newuser
+exit
+cd
+ls -l
+cd repogit
+ls -l
+cd TP1_AySO_Montero_Valentino/
+ls -l
+tree
+git status
+git pull
+git commit -m "add: cambios y correcciones"
+git status
+git push
+git pull
+ls -kl
+ls -l
+history -a
+cat $HOME/.bash_history > historial_comandos_monterovalentino.txt
+ls -l
+cat historial_comandos_monterovalentino.txt 
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+ls -l
+rm -r historial_comandos_monterovalentino.txt 
+ls -l
+rm -r Historial_comandos_Apellido.txt 
+Moony@DESKTOP-7L1DB62 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to da
+te...
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--
+provision`
+==> default: flag to force provisioning. Provisioners marked to run always will
+still run.
+==> default: Machine 'default' has a post `vagrant up` message. This is a messag
+e
+==> default: from the creator of the Vagrantfile, and not from Vagrant itself:
+==> default:
+==> default:   #################################################################
+##########
+==> default:   #
+==> default:   # Para Ingresar a la VM puede usar cualquiera de las dos opciones
+:
+==> default:   #
+==> default:   #################################################################
+##########
+==> default:   # 1. (usar Vagrant)
+==> default:
+==> default:   vagrant ssh
+==> default:
+==> default:   # 2. Usar SSH indicando la key Privada
+==> default:   # Puede usar la private_key proporcionada por vagrant
+==> default:
+==> default:   ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@1
+92.168.56.2
+==> default:
+Moony@DESKTOP-7L1DB62 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant ssh
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-135-generic x86_64)
+Expanded Security Maintenance for Applications is not enabled.
+11 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+New release '24.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+*** System restart required ***
+Last login: Tue May  6 15:07:50 2025 from 10.0.2.2
+vagrant@VMPruebas:~$ cd
+vagrant@VMPruebas:~$ ls -l
+total 48
+drwxrwxr-x 2 vagrant vagrant 4096 Apr 29 13:24 Documents
+-rw-r--r-- 1 root    root       5 Apr 15 15:22 README
+drwxrwxr-x 3 vagrant vagrant 4096 Apr 29 12:03 TP1_AySO_Montero_Valentino
+drwxrwxrwx 1 vagrant vagrant 4096 Apr 15 15:20 carpeta_compartida
+drwxrwxr-x 4 vagrant vagrant 4096 Apr 29 14:49 clase4
+drwxrwxrwx 2 vagrant vagrant 4096 May  6 12:56 clase5
+drwxrwxr-x 2 vagrant vagrant 4096 May  6 13:39 dir_prueba
+drwxrwxr-x 2 vagrant vagrant 4096 May  6 13:27 dir_script
+drwxrwxr-x 3 vagrant vagrant 4096 May  6 14:40 repogit
+-rw-rw-r-- 1 vagrant vagrant   28 May  6 13:25 script1
+-rw-rw-r-- 1 vagrant vagrant   27 May  6 13:26 script2
+-rwxrw-r-- 1 vagrant vagrant   57 May  6 13:39 script3.sh
+vagrant@VMPruebas:~$ cd repogit
+vagrant@VMPruebas:~/repogit$ ls -l
+total 4
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:06 TP1_AySO_Montero_Valentino
+vagrant@VMPruebas:~/repogit$ cd TP1_AySO_Montero_Valentino/
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ ls -l
+total 28
+-rw-rw-r-- 1 vagrant vagrant   43 May  6 14:55 README.MD
+-rw-rw-r-- 1 vagrant vagrant   85 May  6 15:06 README.md
+-rw-rw-r-- 1 vagrant vagrant   35 May  6 14:44 datos_url.txt
+-rw-rw-r-- 1 vagrant vagrant   73 May  6 14:53 datos_usuario.txt
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia1
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia2
+-rwxrwxrwx 1 vagrant vagrant    1 May  6 15:03 script_dir.sh
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ tree
+.
+├── README.MD
+├── README.md
+├── datos_url.txt
+├── datos_usuario.txt
+├── materia1
+│   ├── uni1
+│   ├── uni2
+│   └── uni3
+├── materia2
+│   ├── uni1
+│   ├── uni2
+│   └── uni3
+└── script_dir.sh
+8 directories, 5 files
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+All conflicts fixed but you are still merging.
+Changes to be committed:
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ git commit -m "add: camb
+ios y correcciones"
+[main 00a840b] add: cambios y correcciones
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+nothing to commit, working tree clean
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 687 bytes | 687.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:valemontero/TP1_AySO_Montero_Valentino.git
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (2/2), 899 bytes | 899.00 KiB/s, done.
+From github.com:valemontero/TP1_AySO_Montero_Valentino
+Updating 00a840b..d89ceda
+Fast-forward
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ ls -kl
+total 24
+-rw-rw-r-- 1 vagrant vagrant   43 May  6 14:55 README.MD
+-rw-rw-r-- 1 vagrant vagrant   35 May  6 14:44 datos_url.txt
+-rw-rw-r-- 1 vagrant vagrant   73 May  6 14:53 datos_usuario.txt
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia1
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia2
+-rwxrwxrwx 1 vagrant vagrant    1 May  6 15:03 script_dir.sh
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ ls -l
+total 24
+-rw-rw-r-- 1 vagrant vagrant   43 May  6 14:55 README.MD
+-rw-rw-r-- 1 vagrant vagrant   35 May  6 14:44 datos_url.txt
+-rw-rw-r-- 1 vagrant vagrant   73 May  6 14:53 datos_usuario.txt
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia1
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia2
+-rwxrwxrwx 1 vagrant vagrant    1 May  6 15:03 script_dir.sh
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ history -a
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ cat $HOME/.bash_history
+> historial_comandos_monterovalentino.txt
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ ls -l
+total 28
+-rw-rw-r-- 1 vagrant vagrant   43 May  6 14:55 README.MD
+-rw-rw-r-- 1 vagrant vagrant   35 May  6 14:44 datos_url.txt
+-rw-rw-r-- 1 vagrant vagrant   73 May  6 14:53 datos_usuario.txt
+-rw-rw-r-- 1 vagrant vagrant 2967 May  6 15:13 historial_comandos_monterovalenti
+no.txt
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia1
+drwxrwxr-x 5 vagrant vagrant 4096 May  6 15:02 materia2
+-rwxrwxrwx 1 vagrant vagrant    1 May  6 15:03 script_dir.sh
+vagrant@VMPruebas:~/repogit/TP1_AySO_Montero_Valentino$ cat historial_comandos_m
+onterovalentino.txt
+whoami
+ls
+ls -l
+cd repogit
+ls
+ssh-keygen -t ed25519
+ls -l
+cd repogit
+ls -l
+cd TP1_AySO_Montero_Valentino/
+ls -l
+cat main
+rm -m default\: 
+rm -R default\: 
+rm -r default\: 
+rm -r main
+rm -r historial_comandos_monterovalentino.txt 
+ls -l
+cat README.MD 
+cat README.MD >
+cat README.MD > 
+cat << FIN > README.MD 
+Alumno: Valentino Montero
+Division 115
+Turno: Mañana
+FIN
+
+cat README.MD 
+git add.
+git add .
+git status
+git commit -m "add: último cambio en el README.MD
+"
+git push
+history -a
+cp ~/.bash_history ./Historial_comandos_Montero.txt
+ls -l
+git add .
+git commit -m "add: historial de comandos de Montero"
+git status
+git push
+clear
+cd
+cd repogit
+ls -l
+cd
+rm -r repogit
+y
+ls -l
+clear
+mkdir repogit
+cd repogit
+git clone git@github.com:valemontero/TP_AySO_Montero_Valentino.git
+cd TP_AySO_Montero_Valentino/
+ls -l
+cat /etc/os-release
+grep <parámetro> Home_url /etc/os-release >
+ls -l
+grep -i home_url /etc/os-release > datos_url.txt
+whoiam
+whoami
+ls -l
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+git add .
+git commit -m "add: agregado 1er ejercicio sobre datos_usuario.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git add datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat << FIN >> README.md 
+Alumno: Valentino Montero
+División: 115
+Turno: Mañana
+FIN
+
+ls -l
+cat README.md 
+git add README.md datos_usuario.txt
+git commit -m "add: Añadiendo README y datos de usuario"
+git status
+git push
+mkdir -p {materia1,materia2}/uni{1..3}
+treee
+tree
+vim script_dir.sh
+ls -l
+git add .
+git commit -m "add: añadiendo script"
+git push
+history -a
